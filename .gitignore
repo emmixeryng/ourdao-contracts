@@ -4,11 +4,13 @@
 
 # Soroban build artifacts
 *.wasm
+temp_auto_push.bat
 
 # Soroban test snapshots (regenerated on every `cargo test`)
 **/test_snapshots/
 
 # Editor / OS
 .idea/
-.vscode/
 .DS_Store
+.gitignore
+branch_structure.json
